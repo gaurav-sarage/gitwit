@@ -6,9 +6,9 @@ import { doc, setDoc } from "firebase/firestore";
 
 async function GET(req) {
 
-    await setDoc(doc(db, "cities", "LA"), {
-        name: "Los Angeles",
-        state: "CA",
+    await setDoc(doc(db, "cities", "NYC"), {
+        name: "New York City",
+        state: "NY",
         country: "USA"
     });
     return NextResponse.json({ status: "success" })
