@@ -1,9 +1,10 @@
 import { NextResponse } from 'next/server'
-import db from "../../../firebase/config";
-import { collection, query, orderBy, limit, getDocs } from "firebase/firestore";
+import app from "../../../firebase/config";
+import { collection, query, orderBy, limit, getDocs, getFirestore } from "firebase/firestore";
 
 // Add a new document in collection "cities"
 async function PUT() {
+    const db = getFirestore(app);
     const docRef = collection(db, "projects");
 
     const quer = query(docRef, orderBy("star", "desc"), limit(10));
