@@ -1,8 +1,9 @@
-import { db } from "../../../firebase/config"
+import { NextResponse } from 'next/server'
 
-export async function GET() {
-    const snapshot = await db.collection('users').get();
-    // const snapshot = fetch('https://jsonplaceholder.typicode.com/posts')
-    const data = await snapshot.json()
-    return Response.json({ data })
+function GET(req) {
+    return NextResponse.json({ message: 'Hello from Next.js!' })
+}
+
+export {
+    GET
 }
