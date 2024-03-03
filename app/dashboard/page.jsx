@@ -4,22 +4,32 @@ import Link from "next/link";
 const Dashboard = () => {
   return (
     <>
-      <h1 className='text-2xl font-bold mb-5'>Dashboard</h1>
-      <p className='mb-5'>Welcome to the dashboard!</p>
+      <h1 className='text-2xl font-bold mb-5 text-center'>Dashboard</h1>
+      <p className='mb-5 text-center'>Welcome to the dashboard!</p>
       <div>
       <Link href="/profile">
-        <Button variant="destructive" className="mt-2 mb-2 w-full">
+        <Button variant="default" className="mt-2 mb-2 w-full">
           Profile
         </Button>
       </Link>
       <Link href="/collab">
-        <Button variant="destructive" className="mt-2 mb-2 w-full">
+        <Button variant="default" className="mt-2 mb-2 w-full">
           Collab
         </Button>
       </Link>
-      <Link href="/leaderboard">
-        <Button variant="destructive" className="mt-2 mb-2 w-full">
+      <Link href="/profile/leaderboard">
+        <Button variant="default" className="mt-2 mb-2 w-full">
           Leaderboard
+        </Button>
+      </Link>
+      <Link href="/profile/badges">
+        <Button variant="default" className="mt-2 mb-2 w-full">
+          Badges
+        </Button>
+      </Link>
+      <Link href="/profile/achievements">
+        <Button variant="default" className="mt-2 mb-2 w-full">
+          Achievements
         </Button>
       </Link>
       </div>
