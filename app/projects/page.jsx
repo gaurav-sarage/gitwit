@@ -14,24 +14,31 @@ const ProjectsComponent = () => {
       <header className="flex items-center h-16 px-4 border-b shrink-0 md:px-6">
 
         <nav className="hidden font-medium sm:flex flex-row items-center gap-5 text-sm lg:gap-6">
-          <Button className="font-bold" href="#">
+          <Link href="/projects">
+          <Button className="font-bold">
             All
           </Button>
+          </Link>
+          <Link href="/projects/web" target="_blank">
           <Button className="text-white">
             Web
           </Button>
+          </Link>
+          <Link href="/projects/app" target="_blank">
           <Button className="text-white">
             App
           </Button>
+          </Link>
+          <Link href="/projects/ai" target="_blank">
           <Button className="text-white">
             AI
           </Button>
-          <Button className="text-white">
-            Generative AI
-          </Button>
+          </Link>
+          <Link href="/projects/cybersecurity" target="_blank">
           <Button className="text-white">
             Cybersecurity
           </Button>
+          </Link>
         </nav>
         <div className="flex items-center w-full gap-4 md:ml-auto md:gap-2 lg:gap-4">
           <Button className="rounded-full ml-auto" size="icon" variant="ghost">
