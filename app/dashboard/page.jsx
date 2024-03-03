@@ -1,26 +1,26 @@
 "use client"
-import { auth, useAuth } from "@clerk/nextjs";
-import firebase from "firebase/app";
-import { getAuth, signInWithCustomToken } from "firebase/auth";
+import { useAuth } from "@clerk/nextjs";
+import { getAuth, signInWithCustomToken, onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import app from "@/firebase/config"
 import Link from "next/link";
-import app from "@/firebase/config";
+
 
 const Dashboard = () => {
   const { getToken } = useAuth();
 
   useEffect(() => {
+    let auth
     const signInWithClerk = async () => {
-      const auth = getAuth();
-      // const { userId } = auth()
-      console.log(userId);
+      auth = getAuth();
       const token = await getToken({ template: "integration_firebase" });
       const userCredentials = await signInWithCustomToken(auth, token);
-      console.log("user ::", userCredentials.user);
+      console.log("user ::", userCredentials.user.uid);
     };
 
     signInWithClerk();
+
   }, []);
   return (
     <>
