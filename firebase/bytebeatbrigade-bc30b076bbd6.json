@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bytebeatbrigade",
+  "private_key_id": "bc30b076bbd652b41bb8e9fb3c6fb6930df9dd88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+A0XM7dO8AM5s\n+a2YoDUxO4sHYqZzWIh9lsaAPn4nfCzaxYermMUOTjpVp5ESwk3L+KV9XVIOTlUb\nmIW/ergtQs5YJl2Tgog0Bk9LN0O82sf0siThj1wzNMNHbHD9lB5eIP0zAGAx64I8\n1cExwztudcZh1b/ZzQHmgL9pkDYyxp6HRW3wG67CSLwpuAVJAn2Em82isvUPTLne\nCX3QOG10avB6TrvilPgqEw0LeFdbxFy3pqSNmnNNmRCDwMV0PGhsMKAWanmC7x1Q\nrB/PfLv+9NAnLSqKXYvLx9li+VFXcSUgrcyK+R65WDj+El57+V7S7wy+MT1ziON5\nQzI7QhuBAgMBAAECggEADbd4w3lrroe0XyOLB5iRHnO47piNgYgjmkVXIQzh2IHb\nTxOxXo7Rst2s0mAdVehW62GQuMMS2FuJQ0u4ZAE86G+JK83hNXPX10GZWcmshyaY\nBq8RgILz2fJ2ImLOqU+W/Z6OCK9/QjtJFJEtuCTq1meEIa3ngpaNC5HBv6Icd3/F\nPAN1qAfzgfTMU12CQj3gKPt7IfmXz6O1B6AtU4LLRzq2Bf246iUqlS6j9HWsvYXR\nP8/JNfoBxR4xNbdrh8ukg2j4nUujqBuZh3XF7sErj9Z9nCXBunFdb84wqhymPmJm\nJc5iOgoQSmJyREKEDeTi+dhVtyoo/I89+D+Z70+S7QKBgQDdhsVWiwpHfyKd6cAU\nr1I2wJHwVvJJVuTNm6NJuJ8r3wDzkondptjbjFycxZFOAweS8xcjJCnUAs7NCaDS\nQiIxoMRoWVm98N/laEe97eouwtLvIr1mw9pRKzNeit1oDc0uw89oKZxJnW0G2fQ0\nIMWmBSUbUjpVSejaeUyadWFVnwKBgQDblQ1W5Q/pyJIOAfdPlDdQ8kTW4tiLnqzT\nBoqDwr7t0Xpes0uAd0Cy6waEBKoYtBnfKWwB4nmQdXxhPj5mth/TLE9EVP7uxf4H\n2pPRDRKB7NtLM/r/4dVuL521GwcPKeWELVSRs93Qz12bFBzZi8wNSTMa2Af/chFQ\nuYihB9263wKBgQDPxqF+26iHiMJSNLVZcVt+ST5Ym2Riz2KJSqpr8gMxJdgBnPc8\nc0rBGbSfwlrYPdUzyldwOXIWDZAkFhzGOQtTWwP9D5kxoySNSjLH/MeClm87pmzZ\nX2d8bDWhPkQOXauOalA11ZlmHobtPy5iWj6nyfmU15oo9sq1Z8ImuWPS5wKBgQCF\n7FOVcuGQwZ6q4nIW3Bwcx5ZKxVIzXZSkpDGpCQbv/zo2Nf5PnOwd85Amxr2DkZzR\n6e6Q+7MO80jn+lGOzXd9kWHLGFfgA2vbGGndL67hBTf+lvZ4SCGnMW1rfs+AZRox\n0n/o2Z3o9ABwTAUIfeX3GHUN40KFfummpXH6XNTUWwKBgQCA+bxnlGlL2EsJ2ZPN\nFCll8SFrNz63L24TNVaYgHAx4qLe2KgViDRrykJZbH3eIJE7TDPgg1W1rIG5VFh9\nPiBXTftMq9hJrtIAaNKu7vIVgB0VaPkCy5m3SfM1rEZlTlDtenif7m7bOwKZxu69\nKzXOnprYFaRwuGUdbPf9C3RSYA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bytebeatbrigade@appspot.gserviceaccount.com",
+  "client_id": "100949186607701827773",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bytebeatbrigade%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
