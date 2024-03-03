@@ -56,7 +56,8 @@ const Chat = () => {
 	// // useEffect(() => {if (id) console.log(id)}, [id])
 
 	const handleClick = async (e) => {
-		
+		e.preventDefault();
+		setShow(true);	
 	}
 
 	return (
@@ -82,12 +83,12 @@ const Chat = () => {
 					</p>
 				</li>
 
-				<li key="{message.at}3"
+				{ show ? <li key="{message.at}3"
 					className='flex flex-col px-3 pt-5 items-end'>
 					<p className="text-gray-100 whitespace-normal py-2 px-3 bg-cyan-600 rounded-lg max-w-xl">
 						and firebase
 					</p>
-				</li>
+				</li> : null }
 			</ul>
 
 
