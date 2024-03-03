@@ -17,7 +17,7 @@ const ProfileComponent = () => {
     }
 
   return (
-    <div className="w-full px-4 py-10 space-y-6 md:px-6 lg:space-y-10">
+    <div className="w-full px-4 py-4 space-y-6 md:px-6 lg:space-y-10">
       <div className="mx-auto max-w-5xl space-y-6">
         <div className="space-y-2">
           <div className="text-3xl font-bold">Hi, {user.firstName} </div>
@@ -64,6 +64,15 @@ const ProfileComponent = () => {
               <TabsList className="w-full justify-start">
                 <TabsTrigger value="projects">Projects</TabsTrigger>
                 <TabsTrigger value="contributions">Contributions</TabsTrigger>
+                <Link href="/profile/badges">
+                  <TabsTrigger value="badges">Badges</TabsTrigger>
+                </Link>
+                <Link href="/profile/achievements">
+                  <TabsTrigger value="achievements">Achievements</TabsTrigger>
+                </Link>
+                <Link href="/profile/leaderboard">
+                  <TabsTrigger value="leaderboard">Leaderboard</TabsTrigger>
+                </Link>
               </TabsList>
               <TabsContent className="p-1" value="projects">
                 <div className="grid grid-cols-2 gap-6">
@@ -350,6 +359,9 @@ const ProfileComponent = () => {
           </div>
         </div>
       </div>
+      <Link href="/dashboard" className="flex justify-center">
+        <Button>Go back to Dashboard</Button>
+      </Link>
     </div>
   )
 }
