@@ -91,6 +91,46 @@ const CollabComponent = () => {
               </CardContent>
             </Card>
             <Card>
+      <CardHeader className="flex flex-row items-center gap-4">
+        <CircleIcon className="w-8 h-8" />
+        <div className="grid gap-1">
+          <CardTitle>Frequently Asked Questions</CardTitle>
+          <CardDescription>Common queries and answers about the project.</CardDescription>
+        </div>
+        <Link className="ml-auto flex items-center gap-2 text-sm font-medium" href="#">
+          View FAQ
+          <ChevronRightIcon className="w-4 h-4 ml-2" />
+        </Link>
+      </CardHeader>
+      <CardContent>
+        <div className="grid gap-2 text-sm">
+          <p className="font-semibold">Welcome to the FAQ Section!</p>
+          <p>
+            Here you can find answers to common questions about the project. If you have more questions, feel free to
+            ask!
+          </p>
+          <ul className="grid gap-4">
+            <li>
+              <p className="font-semibold">How do I get started with the project?</p>
+              <p>Simply follow the installation instructions in the README file.</p>
+            </li>
+            <li>
+              <p className="font-semibold">Can I contribute to the project?</p>
+              <p>Absolutely! We welcome contributions. Please check our contribution guidelines.</p>
+            </li>
+            <li>
+              <p className="font-semibold">Is there a demo available?</p>
+              <p>Yes, you can access the live demo on our website.</p>
+            </li>
+            <li>
+              <p className="font-semibold">Where can I find more detailed documentation?</p>
+              <p>All documentation is available in the docs folder of the project repository.</p>
+            </li>
+          </ul>
+        </div>
+      </CardContent>
+    </Card>
+            <Card>
               <CardHeader className="flex flex-row items-center gap-4">
                 <MessageSquareIcon className="w-8 h-8" />
                 <div className="grid gap-1">
@@ -201,6 +241,26 @@ function MessageSquareIcon(props) {
       strokeLinejoin="round"
     >
       <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </svg>
+  )
+}
+
+
+function CircleIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
     </svg>
   )
 }
